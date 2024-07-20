@@ -1,1 +1,5 @@
-export default 1;
+import Easypm from '@/core/easypm';
+
+const easypm = new Easypm();
+
+export default easypm;
